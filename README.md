@@ -33,6 +33,8 @@ arm-none-eabi-cgg --version
 arm-none-eabi-g++ --version
 arm-none-eabi-size --version
 
+ sudo apt-get install gcc-arm-none-eabi
+
 
 
 
