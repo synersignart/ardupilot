@@ -35,6 +35,7 @@ arm-none-eabi-size --version
 
  sudo apt-get install gcc-arm-none-eabi
 
+pip install argparse
 
 
 
