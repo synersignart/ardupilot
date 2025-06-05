@@ -1,5 +1,35 @@
 # ArduPilot Project
 
+create your workspace folder in the home folder
+    0    cd workspace
+
+in your ubutnu terminal
+
+    1    sudo apt-get update
+    2    sudo apt-get install git
+    3    sudo apt-get install gitk git-gui
+
+    4    git clone --recurse-submodules https://github.com/your-github-userid/ardupilot
+         cd ardupilot
+
+         
+         
+From the cloned ardupilot directory : cd workspace/ardupilot
+
+    5   Tools/environment_install/install-prereqs-ubuntu.sh -y    
+    6   . ~/.profile
+
+Now you should be able to build with waf as described in BUILD.md. For example, for a Copter build for the MatekH743 board:
+
+    7     ./waf configure --board MatekH743
+          ./waf copter
+
+Should waf not configure pop up
+    8    python3 waf configure
+
+
+
+
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
 
 [![Test Copter](https://github.com/ArduPilot/ardupilot/workflows/test%20copter/badge.svg?branch=master)](https://github.com/ArduPilot/ardupilot/actions/workflows/test_sitl_copter.yml) [![Test Plane](https://github.com/ArduPilot/ardupilot/workflows/test%20plane/badge.svg?branch=master)](https://github.com/ArduPilot/ardupilot/actions/workflows/test_sitl_plane.yml) [![Test Rover](https://github.com/ArduPilot/ardupilot/workflows/test%20rover/badge.svg?branch=master)](https://github.com/ArduPilot/ardupilot/actions/workflows/test_sitl_rover.yml) [![Test Sub](https://github.com/ArduPilot/ardupilot/workflows/test%20sub/badge.svg?branch=master)](https://github.com/ArduPilot/ardupilot/actions/workflows/test_sitl_sub.yml) [![Test Tracker](https://github.com/ArduPilot/ardupilot/workflows/test%20tracker/badge.svg?branch=master)](https://github.com/ArduPilot/ardupilot/actions/workflows/test_sitl_tracker.yml)
