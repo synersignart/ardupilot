@@ -27,6 +27,12 @@ Now you should be able to build with waf as described in BUILD.md. For example, 
 Should waf not configure pop up
     8    python3 waf configure
 
+if there are none-eabi error
+
+arm-none-eabi-cgg --version
+arm-none-eabi-g++ --version
+arm-none-eabi-size --version
+
 
 
 
