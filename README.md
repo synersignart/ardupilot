@@ -52,7 +52,11 @@ could not configure C++ Compiler
 
 could not find program ['make'] 
 
-    15    sude apt-get install make
+    15    sudo apt-get install make
+
+you need to install empy
+
+    16    python3 -m pip install empy==3.3.4
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
