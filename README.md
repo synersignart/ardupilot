@@ -37,6 +37,7 @@ arm-none-eabi-size --version
 
 pip install argparse
 
+sudo apt install g++
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
