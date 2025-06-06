@@ -1,5 +1,7 @@
 # ArduPilot Project
 
+# build Terminal 
+
 create your workspace folder in the home folder
     0    cd workspace
 
@@ -59,7 +61,7 @@ you need to install empy
 
 
     16    sudo apt-get install python3-pip
-    16    python3 -m pip install empy==3.3.4
+    17    python3 -m pip install empy==3.3.4
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
