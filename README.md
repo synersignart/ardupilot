@@ -63,6 +63,15 @@ you need to install empy
     16    sudo apt-get install python3-pip
     17    python3 -m pip install empy==3.3.4
 
+Compiler¶
+
+You need the specific gcc-arm cross-compiler linked above. You need to unpack it where you want, for now let’s call this location TARGET_DIR:
+
+cd TARGET_DIR
+tar -xjvf gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
+
+
+
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
 
