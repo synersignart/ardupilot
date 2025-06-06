@@ -5,6 +5,7 @@ create your workspace folder in the home folder
 
 in your ubutnu terminal
 
+    0    sudo apt update
     1    sudo apt-get update
     2    sudo apt-get install git
     3    sudo apt-get install gitk git-gui
