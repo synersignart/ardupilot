@@ -56,6 +56,8 @@ could not find program ['make']
 
 you need to install empy
 
+
+    16    sudo apt install python3
     16    python3 -m pip install empy==3.3.4
 
 
