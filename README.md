@@ -19,6 +19,8 @@ From the cloned ardupilot directory : cd workspace/ardupilot
     5   Tools/environment_install/install-prereqs-ubuntu.sh -y    
     6   . ~/.profile
 
+Then Log out and Log in again to save
+
 Now you should be able to build with waf as described in BUILD.md. For example, for a Copter build for the MatekH743 board:
 
     7     ./waf configure --board MatekH743
