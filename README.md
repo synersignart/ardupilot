@@ -27,18 +27,26 @@ Now you should be able to build with waf as described in BUILD.md. For example, 
 Should waf not configure pop up
     8    python3 waf configure
 
-if there are none-eabi error
+SHOULD THERE BE ERRORS in DEPENDACIES
+
+none-eabi error
 
     9    arm-none-eabi-cgg --version
     10    arm-none-eabi-g++ --version
     11    arm-none-eabi-size --version
-
     12    sudo apt-get install gcc-arm-none-eabi
+
+could not find program argparse
+    
     13    pip install argparse
 
 could not configure C++ Compiler
 
     14    sudo apt install g++
+
+could not find program ['make'] 
+
+    15    sude apt-get install make
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
