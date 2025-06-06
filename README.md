@@ -36,7 +36,7 @@ Now you should be able to build with waf as described in BUILD.md. For example, 
 Should waf not configure pop up
     8    python3 waf configure
 
-# SHOULD THERE BE ERRORS in DEPENDACIES
+# SHOULD THERE BE ERRORS
 
 none-eabi error
 
