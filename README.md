@@ -29,15 +29,17 @@ Should waf not configure pop up
 
 if there are none-eabi error
 
-arm-none-eabi-cgg --version
-arm-none-eabi-g++ --version
-arm-none-eabi-size --version
+    9    arm-none-eabi-cgg --version
+    10    arm-none-eabi-g++ --version
+    11    arm-none-eabi-size --version
 
- sudo apt-get install gcc-arm-none-eabi
+sudo apt-get install gcc-arm-none-eabi
 
-pip install argparse
+    12    pip install argparse
 
-sudo apt install g++
+could not configure C++ Compiler
+
+    13    sudo apt install g++
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
