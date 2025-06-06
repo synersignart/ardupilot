@@ -33,13 +33,12 @@ if there are none-eabi error
     10    arm-none-eabi-g++ --version
     11    arm-none-eabi-size --version
 
-sudo apt-get install gcc-arm-none-eabi
-
-    12    pip install argparse
+    12    sudo apt-get install gcc-arm-none-eabi
+    13    pip install argparse
 
 could not configure C++ Compiler
 
-    13    sudo apt install g++
+    14    sudo apt install g++
 
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">
