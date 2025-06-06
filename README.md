@@ -9,10 +9,14 @@ in your ubutnu terminal
     2    sudo apt-get install git
     3    sudo apt-get install gitk git-gui
 
+you might need to Fork the Ardupilot repository into your own github profile githum user id
+
     4    git clone --recurse-submodules https://github.com/your-github-userid/ardupilot
          cd ardupilot
 
-         
+ this creates a Ardupilot folder at your root
+
+ create new folder and name it (build)
          
 From the cloned ardupilot directory : cd workspace/ardupilot
 
